@@ -1,0 +1,6 @@
+{
+  "_说明": "桌面确认配置。改完需要重启 DSH 生效。",
+  "approval": true,
+  "questions": true,
+  "timeoutSec": 60
+}

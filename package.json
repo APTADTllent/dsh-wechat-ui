@@ -1,0 +1,48 @@
+{
+  "name": "dsh-wechat-ui",
+  "version": "0.8.6",
+  "description": "微信风格聊天界面：气泡换肤、思考过程折叠、过滤纯 NEXT、表情包与图片头像、桌面确认窗口（含浏览器心跳检测）、自动推进器（自动发 NEXT，带全套刹车）、定时截屏与「让 AI 看屏幕」。只接管 user / assistant-step 两个渲染节点，其余全部回落官方渲染器。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "cordis-plugin",
+    "wechat",
+    "ui-theme",
+    "chat-ui",
+    "stickers",
+    "desktop-notification",
+    "screenshot",
+    "hotkey"
+  ],
+  "license": "MIT",
+  "files": [
+    "lib",
+    "assets",
+    "scripts",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APTADTllent/dsh-wechat-ui.git"
+  },
+  "homepage": "https://github.com/APTADTllent/dsh-wechat-ui#readme",
+  "bugs": {
+    "url": "https://github.com/APTADTllent/dsh-wechat-ui/issues"
+  }
+}
